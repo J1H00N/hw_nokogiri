@@ -1,0 +1,12 @@
+<H2>다이닝코드에서 오늘의 맛집 불러오기!</H2>
+<table>
+<tbody>
+    <% @restaurants.each do |restaurant|%>
+    <tr>
+        <td>
+            <%= restaurant['name'] %>
+        </td>
+    </tr>
+    <%end%>
+</tbody>
+</table>
